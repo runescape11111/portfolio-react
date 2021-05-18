@@ -3,30 +3,25 @@ import { NavLink, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Pupster
-      </Link>
-      <div className="navbar-collapse collapse">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <NavLink to="/about" className="nav-link" activeClassName="active">
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/discover" className="nav-link" activeClassName="active">
-              Discover
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/search" className="nav-link" activeClassName="active">
-              Search
-            </NavLink>
-          </li>
+    <header>
+    <Link to="/"><div><h1>Yijie Shi (Oliver)</h1></div></Link>
+    <nav>
+        <ul>
+            <li>
+                <NavLink to="/about" className="nav-link">About me</NavLink>
+            </li>
+            <li>
+                <NavLink to="/work" className="nav-link">Work</NavLink>
+            </li>
+            <li>
+                <NavLink to="/contact" className="nav-link">Contact me</NavLink>
+            </li>
+            <li>
+                <Link href="/Resume.pdf">Resume</Link>
+            </li>
         </ul>
-      </div>
     </nav>
+</header>
   );
 }
 
