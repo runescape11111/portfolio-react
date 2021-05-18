@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 // import Discover from "./pages/Discover";
 import About from "./pages/About";
-// import Search from "./pages/Search";
+import Work from "./pages/Work";
 import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 
@@ -20,8 +20,8 @@ function App() {
         <Route exact path="/discover">
           {/* <Discover /> */}
         </Route>
-        <Route path="/search">
-          {/* <Search /> */}
+        <Route path="/work">
+          <Work />
         </Route>
         {/* <Footer /> */}
       </div>
