@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class Work extends Component {
   render() {
     return (
-      <div>
         <main>
         <section id="past-work">
             <div className="title">
@@ -80,7 +79,6 @@ class Work extends Component {
             </div>
         </section>
         </main>
-      </div>
     );
   }
 }

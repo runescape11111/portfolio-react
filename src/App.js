@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
-// import Discover from "./pages/Discover";
+import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,13 +16,10 @@ function App() {
         <Route exact path="/about">
           <About />
         </Route>
-        <Route exact path="/discover">
-          {/* <Discover /> */}
-        </Route>
         <Route path="/work">
           <Work />
         </Route>
-        {/* <Footer /> */}
+        <Contact />
       </div>
     </Router>
   );

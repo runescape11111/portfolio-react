@@ -92,7 +92,7 @@ main section {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 ul {
@@ -113,7 +113,7 @@ ul li {
   border-radius: 10px;
   /* min-width: 5%; */
   max-width: 30%;
-  max-height: 50px;
+  max-height: 100px;
   transition: background-color 500ms ease;
   display: flex;
   align-items: center;
