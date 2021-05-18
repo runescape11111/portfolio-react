@@ -17,7 +17,7 @@ function Navbar() {
                 <NavLink to="/contact" className="nav-link">Contact me</NavLink>
             </li>
             <li>
-                <Link href="/Resume.pdf">Resume</Link>
+                <a href="/Resume.pdf" target="blank">Resume</a>
             </li>
         </ul>
     </nav>

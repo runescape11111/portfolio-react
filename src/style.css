@@ -33,6 +33,7 @@ h1 {
   padding: 20px;
   font-weight: bold;
   font-size: 40px;
+  margin: 0;
 }
 
 h2 {
@@ -50,6 +51,7 @@ h3 {
   font-size: 2.5rem;
   padding: 20px 10px 10px 10px;
   color: var(--mulled-wine);
+  margin: 0px;
 }
 
 h4 {
@@ -97,6 +99,7 @@ ul {
   justify-content: center;
   width: 100%;
   padding: 0px;
+  margin: 0;
 }
 
 ul li {
@@ -140,6 +143,7 @@ figure {
 }
 
 .top-pic {
+  margin: 0;
   margin-bottom: 20px;
   object-fit: cover;
   position: relative;
@@ -280,13 +284,14 @@ p {
     background-color: var(--mulled-wine);
     border-radius: 500px 0 0 250px;
     font-size: 2.25rem;
+    margin: 40px 0px;
   }
 
   .bio,
   .container,
   #contact > ul {
     /*resize for desktop*/
-    width: 80%;
+    width: 70%;
   }
 
   header {
