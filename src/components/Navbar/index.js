@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import Resume from "../../documents/Resume.pdf";
 
 function Navbar() {
   return (
@@ -17,7 +18,7 @@ function Navbar() {
                 <NavLink to="/contact" className="nav-link">Contact me</NavLink>
             </li>
             <li>
-                <a href="/Resume.pdf" target="blank">Resume</a>
+                <a href={Resume} target="blank">Resume</a>
             </li>
         </ul>
     </nav>
