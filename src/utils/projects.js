@@ -1,8 +1,14 @@
+import giftApp from "../images/project-2.png";
+import dictApp from "../images/dictionary.png";
+import techBlog from "../images/tech-blog.png";
+import codeQuiz from "../images/code-quiz-question.png";
+import weatherDash from "../images/weather-dashboard.png";
+
 const project = [
     {
         id: 1,
         name: "Wishlist Gifting App",
-        src: "/project-2.png",
+        src: giftApp,
         alt: "Gift-A-Cate wishlist sharing app",
         deployed: "https://powerful-lake-31769.herokuapp.com/",
         github: "https://github.com/DanCarrillo93/gift-a-cate"
@@ -10,7 +16,7 @@ const project = [
     {
         id: 2,
         name: "Word Search App",
-        src: "/dictionary.png",
+        src: dictApp,
         alt: "Dictionary project",
         deployed: "https://irvinek01.github.io/world-of-words/",
         github: "https://github.com/irvinek01/project-1-secret-dictionary"
@@ -18,7 +24,7 @@ const project = [
     {
         id: 3,
         name: "Tech Blog",
-        src: "/tech-blog.png",
+        src: techBlog,
         alt: "Tech blog for posting and commenting",
         deployed: "https://calm-badlands-67953.herokuapp.com/",
         github: "https://github.com/runescape11111/Tech-Blog"
@@ -26,7 +32,7 @@ const project = [
     {
         id: 4,
         name: "Code Quiz (not really)",
-        src: "/code-quiz-question.png",
+        src: codeQuiz,
         alt: "Code Quiz",
         deployed: "https://runescape11111.github.io/Code-Quiz/",
         github: "https://github.com/runescape11111/Code-Quiz"
@@ -34,7 +40,7 @@ const project = [
     {
         id: 5,
         name: "Weather Dashboard",
-        src: "/weather-dashboard.png",
+        src: weatherDash,
         alt: "weather dashboard",
         deployed: "https://runescape11111.github.io/Weather-Dashboard/",
         github: "https://github.com/runescape11111/Weather-Dashboard"
